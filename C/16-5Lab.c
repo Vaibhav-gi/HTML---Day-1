@@ -9,21 +9,25 @@
 // Sample Output
 // Sum of digits of 1234 is: 10
 // C Program:
-// #include<stdio.h>
+// #include <stdio.h>
 // int main()
 // {
 //     int n;
-//     int s=0,r=0;
-//     scanf("%d",&n);
-//     int temp=n;
-//     if (n<0)
-//     { printf("Negative value Not Allowed."); return 0;}
-//     while (n!=0){   
-//     r=n%10;
-//     s+=r;
-//     n=n/10;
+//     int s = 0, r = 0;
+//     scanf("%d", &n);
+//     int temp = n;
+//     if (n < 0)
+//     {
+//         printf("Negative value Not Allowed.");
+//         return 0;
 //     }
-//     printf("Sum of digits of %d is: %d",temp,s);
+//     while (n != 0)
+//     {
+//         r = n % 10;
+//         s += r;
+//         n = n / 10;
+//     }
+//     printf("Sum of digits of %d is: %d", temp, s);
 // }
 
 // Q.2 Write a C program to print all natural numbers form 1 to N in reverse order
@@ -34,7 +38,7 @@
 // 10
 // Sample Output
 // Natural numbers from 10 to 1:
-// 10 9 8 7 6 5 4 3 2 1 
+// 10 9 8 7 6 5 4 3 2 1
 
 // C Program:
 // #include<stdio.h>
@@ -64,7 +68,7 @@
 // d
 // Sample Output
 // Alphabets from a to d:
-// a b c d 
+// a b c d
 
 // C Program:
 // #include<stdio.h>
@@ -79,15 +83,15 @@
 //     }
 //     else{
 //      printf("Alphabets from %c to %c:\n",n,m);
-//     while(n<=m) 
-//     {      
+//     while(n<=m)
+//     {
 //    printf("%c ",n);
 //     n++;
 //     }
 //     }
 // }
 
-// Q.4 Write C program to print multiplication table of a given number. 
+// Q.4 Write C program to print multiplication table of a given number.
 // --------
 
 // Sample input  : int n = 5;
@@ -95,7 +99,7 @@
 // Sample output : 5 * 1 = 5
 //                 5 * 2 = 10
 //                 5 * 3 = 15
-//                 - - - 
+//                 - - -
 //                 - - -
 //                 5 * 10 = 50
 // Sample Input
@@ -126,18 +130,17 @@
 //         printf("Multiplication table of %d:\n");
 //         int i=1;
 //     while(i<=10)
-//     {   
+//     {
 //         printf("%d * %d = %d\n",n,i,i*n);
 //         i++;
 //     }
 //     }
 // }
 
-// Q.5 Write a C program that reads a positive integer N from the user and calculates the sum of even and odd numbers between 1 and N using a while loop. 
+// Q.5 Write a C program that reads a positive integer N from the user and calculates the sum of even and odd numbers between 1 and N using a while loop.
 // The program should then print the sum of even numbers and the sum of odd numbers.
 
 // NOTE : If user entered negative input then print "Invalid Input" message.
-
 
 // Example_1 :
 
@@ -163,7 +166,7 @@ int main()
     {
         int i=1;
         while(i<=n){
-            if(i%2==0) 
+            if(i%2==0)
             even += i;
             else
             odd += i;
@@ -172,4 +175,3 @@ int main()
         printf("Even sum = %d\nOdd sum = %d",even,odd);
     }
 }
-    
