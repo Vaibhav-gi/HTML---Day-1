@@ -1,3 +1,14 @@
+Q.1 Write a C program to print sum of digits entered by user
+--------
+
+Sample input  : int n = 1234
+
+Sample output : 10
+Sample Input
+1234
+Sample Output
+Sum of digits of 1234 is: 10
+C Program:
 #include<stdio.h>
 int main()
 {
