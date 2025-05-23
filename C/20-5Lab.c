@@ -59,6 +59,70 @@
 // 9474 is an Armstrong number.
 
 // C Program:
+// #include <stdio.h>
+// int main()
+// {
+//     int n, sum = 0,c = 0;//3 sum = 153
+//     printf("Enter the number : ");
+//     scanf("%d",&n); //153
+//     int temp = n; //0
+//     while(temp!=0) {
+//        c++;
+//        temp/=10;
+//     }
+//     temp = n;//0
+//     while(temp!=0) {
+//         int r = temp%10;//1
+//         int res = 1;//1
+//         int count = c;//3
+//         while(count!=0) {
+//             res*=r;
+//             count--;
+//         }
+//         sum+=res;
+//         temp/=10;
+//     }
+//     if(sum == n) {
+//         printf("%d is an Armstrong number.",n);
+//     }else {
+//         printf("%d is not an Armstrong number.",n);
+//     }
+//     return 0;
+// }
+
+// Using pow function
+// -------------------------
+// #include <stdio.h>
+// #include <math.h>
+
+// int main()
+// {
+//     int n, sum = 0, c = 0; // 3 sum = 153
+//     printf("Enter the number : ");
+//     scanf("%d", &n); // 153
+//     int temp = n;    // 0
+//     while (temp != 0)
+//     {
+//         c++;
+//         temp /= 10;
+//     }
+//     temp = n; // 0
+//     while (temp != 0)
+//     {
+//         int r = temp % 10; // 1
+//         sum = sum + pow(r, c);
+//         temp /= 10;
+//     }
+//     if (sum == n)
+//     {
+//         printf("Armstrong", n);
+//     }
+//     else
+//     {
+//         printf("not an armstrong", n);
+//     }
+//     return 0;
+// }
 
 // Q.2 Write a C program using nested while loops to print all prime numbers between 1 and N.
 
@@ -103,11 +167,9 @@
 //          i++;
 //     }
 //          return 0;
-    
 // }
 
 // Q.3 Write a c program to check given number is prime or not using while loop
-
 
 // Enter a number: 7
 
@@ -122,7 +184,7 @@
 // int main(){
 //     int n,i=1,c=0;
 //     scanf("%d",&n);
-    
+
 //     if(n<0){
 //         printf("Negative value Not allowed.");
 //         return 0;
@@ -135,31 +197,26 @@
 //     printf((c==2)? "%d is a Prime Number." : "%d is not a Prime Number.",n,n);
 // }
 
-#include<stdio.h>
-int main(){
-    int n,count=0,i=1;
-    scanf("%d",&n);
-    
-    if(n<0){
-        printf("Negative value Not allowed.");
-        return 0;
-    }
-    while(i<=n){
-        if(n%i==0){
-            count++;
-        }i++;
-    }
-        if(count==2){
-            printf("%d is a Prime Number.",n);
-        }
-        else{
-            printf("%d is not a prime number.",n);
-        }
-    }
-
-
-
-
+// #include<stdio.h>
+// int main(){
+//     int n,count=0,i=1;
+//     scanf("%d",&n);
+//     if(n<0){
+//         printf("Negative value Not allowed.");
+//         return 0;
+//     }
+//     while(i<=n){
+//         if(n%i==0){
+//             count++;
+//         }i++;
+//     }
+//         if(count==2){
+//             printf("%d is a Prime Number.",n);
+//         }
+//         else{
+//             printf("%d is not a prime number.",n);
+//         }
+//     }
 
 // Q.4 Write C program to check given number is automorphic number or not.
 // --------
@@ -177,8 +234,7 @@ int main(){
 // Sample Output
 // 5 is an Automorphic Number.
 
-// C Program: 
-
+// C Program:
 
 // Q.5 Write C program to check given number is spy number or not.
 // --------
@@ -187,7 +243,7 @@ int main(){
 // A spy number is a number where the sum of its digits equals
 // the product of its digits.
 // For example :
-// 1124 is a spy number, because the sum of its digits is 1+1+2+4=8 and 
+// 1124 is a spy number, because the sum of its digits is 1+1+2+4=8 and
 // the product of its digits is 1*1*2*4=8 is equal.
 // Sample Input
 // 1124
@@ -195,4 +251,3 @@ int main(){
 // 1124 is a Spy Number.
 
 // C Program:
-
