@@ -1,0 +1,61 @@
+/* (* - global attribute/Universal Selectors)used to apply style whole document */
+/* *{
+    color:gray;
+    font-size:30px;
+    /* To remove default gap or margin provided by the browser 
+    margin:0px;
+} */
+span{
+    font-size:20px;
+    font-family: cursive;
+    font-weight:bolder ;
+    font-style: italic;
+}
+/* after visiting link */
+a:visited{
+    color: orange;
+}
+/* before visiting link2 */
+a:link{
+    color: brown;
+}
+/* during click on the link */
+a:active{
+    color: greenyellow;
+    
+}
+/* hovering on the  */
+a:hover{
+    font-size: 40px;
+    color: rgb(3, 153, 153);
+    background-color: red;
+}
+
+#home{
+    background-color: aquamarine;
+}
+
+#contact{
+    background-color: pink;
+}
+
+#service{
+    background-color: darkmagenta;
+}
+/* for getting cursor(hand symbol)for whole document headings*/
+span{
+    cursor: pointer;
+}
+
+.myCls{
+    background-color: brown;
+    
+}
+
+.demo{
+    background-color: darkslateblue;
+}
+/* the priority is given to "id" first and then "class" */
+#test1{
+    background-color: rgb(0, 255, 213);
+}

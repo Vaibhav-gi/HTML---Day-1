@@ -1,0 +1,24 @@
+p{
+    color: rgb(43, 226, 52);
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+article{
+    text-indent: 60px;
+}
+span{
+    text-shadow: 2px 2px 2px green;
+}
+ul{
+    list-style-type: square;
+    border: 2px solid;
+}
+nav{
+    list-style-position: inside;
+}

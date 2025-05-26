@@ -32,31 +32,31 @@ int main()
     }
 }
 
-Q.2 Write a program in C to check whether a number can be expressed as the sum of two prime. 
-Input as: 16
-Expected Output :
+// Q.2 Write a program in C to check whether a number can be expressed as the sum of two prime. 
+// Input as: 16
+// Expected Output :
 
-16 = 3 + 13
+// 16 = 3 + 13
 
-16 = 5 + 11
-Sample Input
-16
-Sample Output
-Pairs of prime numbers whose sum is 16:
-16 = 3 + 13
-16 = 5 + 11
+// 16 = 5 + 11
+// Sample Input
+// 16
+// Sample Output
+// Pairs of prime numbers whose sum is 16:
+// 16 = 3 + 13
+// 16 = 5 + 11
 
-C Program:
+// C Program:
 
 
 
-Q.3 Write a C program to find all Armstrong numbers between 100 to N.
+// Q.3 Write a C program to find all Armstrong numbers between 100 to N.
 
-A three digit number is called Armstrong number if sum of cube of its digit is equal to number itself.
+// A three digit number is called Armstrong number if sum of cube of its digit is equal to number itself.
 
-E.g.- 153 is an Armstrong number because (1)^3+(5)^3+(3)^3 = 153.
-Sample Input
-200
-Sample Output
-Armstrong numbers between 100 and 200 are:
-153
+// E.g.- 153 is an Armstrong number because (1)^3+(5)^3+(3)^3 = 153.
+// Sample Input
+// 200
+// Sample Output
+// Armstrong numbers between 100 and 200 are:
+// 153
