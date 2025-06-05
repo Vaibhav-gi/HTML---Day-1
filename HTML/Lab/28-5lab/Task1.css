@@ -1,0 +1,27 @@
+div{
+    background-color: rgb(72, 184, 228);
+    text-align: center;
+    color: white;
+}
+nav{
+    padding: 5px;
+    background-color: rgb(87, 172, 87);
+}
+a{
+    padding: 5px;
+    background-color: lightgreen;
+}
+section{
+    border: 2px solid black;
+}
+table,th,td{
+    border-collapse: collapse;
+    border: 2px solid;
+}
+details{
+    background-color: rgb(238, 215, 173);
+}
+.seven{
+    background-color: rgb(55, 84, 95);
+    text-align: center;
+}

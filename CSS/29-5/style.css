@@ -1,0 +1,58 @@
+#navBarSection{
+    border:1px solid grey;
+    height:75px;
+    background-color: lightskyblue;
+    /* padding: 10px; */
+}
+#navBar{
+    display: flex;
+    height: inherit;
+    width: 90%;
+    margin: auto;
+    
+    
+}
+div{
+    height: inherit;
+    border: 1px solid red;
+    background-color: yellow;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-grow: 1;
+    flex-shrink:1;
+    flex-basis:0% */
+    
+
+}
+/* #logoBlock{
+    width: 25%;
+    background-color: white;
+}
+#menuBlock{
+    width: 50%;
+    background-color: green;
+}
+#authBlock{
+    width:25%;
+    background-color: red;
+} */
+
+#loginBtn{
+    padding: 6px 12px;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    background-color: lightsalmon;
+}
+
+#submit input{
+width: 100%;
+    align-items: center;
+}

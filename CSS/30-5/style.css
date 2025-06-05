@@ -1,0 +1,22 @@
+h1{
+    /* using visibility hidden can consume block level space
+    Using display none can not consume space in block level */
+
+    display: none;
+    /* visibility: hidden; */
+}
+img{
+    opacity: 50%;
+}
+
+ul{
+    display: grid;
+    grid-template-columns:100px 100px 100px 100px 100px 100px 100px;
+    background-color: red;
+    width: 55%;
+
+}
+li{
+    list-style: none;
+    border: 2px solid;
+}

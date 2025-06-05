@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(183, 234, 234);
+}
+#one{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: white;
+}
+.one h1 {
+    align-items: center;
+    background-color:rgb(76, 117, 117);
+}
+.two{
+    margin: 1px;
+}
+table,th,td,tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding : 10px;
+}
+th{
+    background-color: rgb(41, 98, 98);
+}
+#three{
+    width : 100%;
+    margin-bottom: 20px;
+}
+#three table{
+    width : 100%;
+}
+#four{
+    margin-bottom: 10px;
+}
+button{
+    padding: 6px 12px ;
+    background:rgb(41, 98, 98);
+    color: white;
+}
+
