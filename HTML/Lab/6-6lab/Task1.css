@@ -1,0 +1,72 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.task1 h2{
+    text-align: center;
+}
+.task1 h2:hover{
+    color: red;
+}
+.task2{
+    background-color: rgb(194, 194, 194);
+    height: 200px;
+    width: 200px;
+    transition: all 1s ease;
+} 
+.task2:hover{
+    background-color: rgb(10, 136, 109);
+}
+.task3{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s ease;
+}
+.task3:hover{
+    background: linear-gradient(red,orange,pink,black);
+    border-radius: 50%;
+    color: red;
+}
+
+.task4 img{
+    transition: all 0.5s ease;
+    height: 200px;
+    width: 200px;
+}
+
+.task4 img:hover{
+    filter: blur(1px);
+}
+
+.task5{
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(red,yellow,green,blue,black);
+    transition: all 1s ease;
+}
+.task5:hover{
+    transform: rotate(45deg);
+    background: conic-gradient(red,yellow,green,blue,black);
+}
+.task6{
+    height: 100px;
+    width: 300px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.task6 h1{
+    opacity: 0;
+    transition: all 1s ease;
+}
+h1:hover{
+    opacity: 1;
+}
