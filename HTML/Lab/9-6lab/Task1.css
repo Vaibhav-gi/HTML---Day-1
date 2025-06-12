@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box{
+    height: 10vh;
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hover{
+    height: 50px;
+    width: 100px;
+    border: 2px solid rgb(61, 61, 236);
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hover:hover{
+   background-color: white;
+   color: blue;
+}
+.square{
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    background: conic-gradient(yellow,orange,black,blue, white ,pink);
+}
+.square:hover{
+    border-radius: 50%;
+    transition: 1s ease;
+    background: radial-gradient(yellow,orange,blue,black);
+}
+.square2{
+    background-color: black;
+    height: 400px;
+    width: 400px;
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.square3{
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    background: linear-gradient(to top right, red,yellow,green);
+    transition: all 1s ease;
+}
+.square3:hover{
+     transform: rotate(45deg);
+     box-shadow: 0px 0px 30px white;
+}
